@@ -1,14 +1,12 @@
 # Localization-and-Mapping-using-Drones-and-Robotics
 ![Swarm-SLAM Overview](media/system-overview.svg)
 
-Look up our [Documentation](https://lajoiepy.github.io/cslam_documentation/html/index.html) and our [Start-up instructions](https://lajoiepy.github.io/cslam_documentation/html/md_startup-instructions.html)!
-
 <p align="center">
   <img src="media/graco_pg.gif" alt="Swarm-SLAM on GRACO dataset" width="48%" />
   <img src="media/graco_pc.gif" alt="Swarm-SLAM on GRACO dataset" width="48%" />
 </p>
 
-[Swarm-SLAM] is an open-source C-SLAM system designed to be scalable, flexible, decentralized, and sparse, which are all key properties in swarm robotics. Our system supports lidar, stereo, and RGB-D sensing, and it includes a novel inter-robot loop closure prioritization technique that reduces inter-robot communication and accelerates the convergence.
+SLAM is an open-source C-SLAM system designed to be scalable, flexible, decentralized, and sparse, which are all key properties in swarm robotics. Our system supports lidar, stereo, and RGB-D sensing, and it includes a novel inter-robot loop closure prioritization technique that reduces inter-robot communication and accelerates the convergence.
 
 Packages summary:
 - [cslam](https://github.com/lajoiepy/cslam): contains the Swarm-SLAM nodes;
